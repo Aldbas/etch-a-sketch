@@ -4,7 +4,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: purple;
-	/*display: flex;*/
+	display: flex;
 	/*height: 900px;*/
 	flex: 1;
 	flex-direction: column;
@@ -13,23 +13,35 @@ body {
 }
 
 #grid-container {
+	border-width: 10px;
+	border-style: solid dashed;
 	margin: auto;
 	height: 500px;
 	width: 650px;
 	background-color: white;
 	display: grid;
-	grid-template-columns: 
-	40px 40px 40px 40px 40px 
-	40px 40px 40px 40px 40px 
-	40px 40px 40px 40px 40px 40px;
-	padding: 10px 10px;
-}
-
-#grid-container > div {
-	padding: 10px 10px;
-	/*width: 700px*/
 }
 
 .penis {
 	background-color: lime;
+}
+
+.buttons {
+	/*margin: auto;*/
+	justify-content: center;
+	/*height: 100px;*/
+	/*width: 150px;*/
+	/*border: 2px solid;*/
+	/*display: inline;*/
+	padding: 20px 0 0 0;
+
+}
+.buttons button{
+	height: 50px;
+	width: 200px;
+	border: 3px solid;
+}
+
+h1{
+	color: white;
 }
