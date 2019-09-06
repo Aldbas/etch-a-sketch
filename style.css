@@ -5,7 +5,6 @@ body {
 	align-items: center;
 	background-color: purple;
 	display: flex;
-	/*height: 900px;*/
 	flex: 1;
 	flex-direction: column;
 
@@ -17,22 +16,17 @@ body {
 	border-style: solid dashed;
 	margin: auto;
 	height: 500px;
-	width: 650px;
+	width: 500px;
 	background-color: white;
 	display: grid;
 }
 
-.penis {
-	background-color: lime;
+.square {
+	background-color: white;
 }
 
 .buttons {
-	/*margin: auto;*/
 	justify-content: center;
-	/*height: 100px;*/
-	/*width: 150px;*/
-	/*border: 2px solid;*/
-	/*display: inline;*/
 	padding: 20px 0 0 0;
 
 }
